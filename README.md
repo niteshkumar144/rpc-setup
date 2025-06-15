@@ -100,11 +100,12 @@ Check `is_syncing`: `false` means fully synced.
 
 ### ✅ View Live Logs:
 
+#### 👉 Prysm logs:
 ```bash
-# Prysm logs
 sudo docker logs prysm -fn 100
-
-# Geth logs
+```
+#### 👉 Geth logs:
+```bash
 sudo docker logs geth -fn 100
 ```
 
